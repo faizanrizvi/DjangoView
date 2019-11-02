@@ -1,1 +1,9 @@
 <h1>List View</h1>
+{% for object in object_list %}
+	<li>
+		{{ object.id }} {{ object.slug }} {{ object.title }}
+	      
+	       
+	      
+	</li>
+{% endfor %}

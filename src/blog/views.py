@@ -7,5 +7,5 @@ from .models import  PostModel
 def post_list_view(request):
 	qs = PostModel.objects.all()
 	print(qs)
-	context = {}
+	context = {"object_list":qs}
 	return render(request,"list-view.html", context)
