@@ -8,3 +8,5 @@
 [Render a Template](https://github.com/faizanrizvi/DjangoView/tree/429063b4d6d3e348dff7da248ffa41c9d62f2a95)
 
 [Context in Views](https://github.com/faizanrizvi/DjangoView/tree/fef7599c426601ac28355c4f0ee857ca24efe3e9)
+
+[Login Required](https://github.com/faizanrizvi/DjangoView/tree/5db39e2230d9cf3d4f4e2d32c3458ac948c02c29)
