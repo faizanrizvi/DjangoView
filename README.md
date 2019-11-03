@@ -10,3 +10,5 @@
 [Context in Views](https://github.com/faizanrizvi/DjangoView/tree/fef7599c426601ac28355c4f0ee857ca24efe3e9)
 
 [Login Required](https://github.com/faizanrizvi/DjangoView/tree/5db39e2230d9cf3d4f4e2d32c3458ac948c02c29)
+
+[Detail View](https://github.com/faizanrizvi/DjangoView/commit/7316b6fa312346f8cb59569481a73f218ec539cd)
