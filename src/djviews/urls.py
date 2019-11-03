@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home, name='home'),
     url(r'^redirect/$', redirect_somewhere, name='home'),
-    url(r'^blog/', include('blog.urls'))
+    url(r'^blog/', include('blog.urls', namespace='blog'))
 ]
