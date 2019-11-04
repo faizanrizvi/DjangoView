@@ -14,3 +14,5 @@
 [Detail View](https://github.com/faizanrizvi/DjangoView/commit/7316b6fa312346f8cb59569481a73f218ec539cd)
 
 [Create and Update View](https://github.com/faizanrizvi/DjangoView/tree/154adeff699fd3bc03bd91d8903d63a64a86cedf)
+
+[Delete View](https://github.com/faizanrizvi/DjangoView/tree/848ac5ca4e40b1c220d7779ed9512a7bf7269f67)
