@@ -45,6 +45,15 @@ def post_update_view(request, id=None):
 		
 	return render(request, 'update-view.html',context)
 
+def post_delete_view(request, id=None):
+	obj = get_object_or_404(PostModel, id=id)
+	if request.method=='POST':
+		obj.delete()
+		messages.success(request,'Post deleted')
+		return HttpResponseRedirect('/blog/')
+	context = {"object":obj}
+	return render(request,'post-delete.html', context)
+
 #@login_required(login_url = '/login/')
 @login_required
 def login_required_view(request):
