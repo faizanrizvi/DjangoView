@@ -12,3 +12,5 @@
 [Login Required](https://github.com/faizanrizvi/DjangoView/tree/5db39e2230d9cf3d4f4e2d32c3458ac948c02c29)
 
 [Detail View](https://github.com/faizanrizvi/DjangoView/commit/7316b6fa312346f8cb59569481a73f218ec539cd)
+
+[Create and Update View](https://github.com/faizanrizvi/DjangoView/tree/154adeff699fd3bc03bd91d8903d63a64a86cedf)
