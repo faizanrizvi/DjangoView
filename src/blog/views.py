@@ -4,11 +4,17 @@ from .models import  PostModel
 from django.contrib.auth.decorators import  login_required
 from .forms import  PostModelForm
 from django.contrib import  messages
+from django.db.models import  Q
 
 # Create your views here.
 
 def post_list_view(request):
+	query = request.GET.get("q",None)
 	qs = PostModel.objects.all()
+	if query is not None:
+		qs = qs.filter(Q(title__icontains=query) |
+			Q(content__icontains=query) |
+			Q(slug__icontains=query))
 	print(qs)
 	context = {"object_list":qs}
 	return render(request,"list-view.html", context)
